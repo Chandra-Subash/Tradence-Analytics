@@ -1,20 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+HR_Workflow_Designer
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/bc742c88-be1e-4296-9500-ee5d5d90c733
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+This project is a web-based HR workflow builder that allows users to visually design and simulate internal processes such as onboarding, leave approvals, and document verification. The application provides a drag-and-drop interface where different workflow nodes like Start, Task, Approval, Automated Step, and End can be connected to create a complete workflow. Users can configure each step using dynamic forms and test the workflow using a simulation panel. The project focuses on building scalable React architecture, handling complex state, and integrating mock APIs for workflow execution.
